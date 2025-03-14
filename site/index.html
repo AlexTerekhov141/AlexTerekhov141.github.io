@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spider-Man</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Spider-Man</h1>
+    <h2 id="subtitle">Человек-паук</h2>
+  </header>
+  
+  <section>
+    <article>
+      <h3 id="bioTitle">Биография</h3>
+      <p id="bioText">
+        Питер Паркер, известный как Человек-паук, получил свои суперспособности после укуса радиоактивного паука. Он борется с преступностью в Нью-Йорке, сохраняя баланс между личной жизнью и обязанностями героя.
+      </p>
+      <img src="images\img1.avif" alt="Изображение Человека-паука">
+      
+      <h3 id="abilitiesTitle">Способности</h3>
+      <ul>
+        <li id="ability1">Сверхчеловеческая сила</li>
+        <li id="ability2">Ловкость и реакция</li>
+        <li id="ability3">«Паутина» для перемещения по городу</li>
+        <li id="ability4">Высокий интеллект и аналитические способности</li>
+      </ul>
+      
+      <p id="learnMore">
+        Узнать больше можно на официальном сайте <a href="https://www.marvel.com/characters/spider-man/on-screen" target="_blank">Marvel</a>.
+      </p>
+    </article>
+  </section>
+  
+  <section>
+    <article>
+      <h3 id="interactiveTitle">Интерактивный элемент</h3>
+      <button class="toggle-button" id="bgToggle" onclick="toggleBackground()">Изменить цвет фона</button>
+      <button id="langToggle" class="toggle-button" onclick="toggleLanguage()">Switch to English</button>
+    </article>
+  </section>
+
+  <section>
+    <article>
+      <h3 id="videoTitle">Видео о Spider-Man</h3>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/U0D3AOldjMU" title="Spider-Man Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </article>
+  </section>
+  
+  <footer>
+    <p>
+      <span id="footerText">Проект размещён на GitHub Pages:</span>
+      <a href="https://yourusername.github.io/spiderman-project" target="_blank">
+        https://yourusername.github.io/spiderman-project
+      </a>
+    </p>
+  </footer>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
