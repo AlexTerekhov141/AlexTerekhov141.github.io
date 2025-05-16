@@ -1,6 +1,7 @@
 {
   "name": "my-react-app",
   "version": "0.0.1",
+  "homepage": "https://AlexTerekhov141.github.io/tree/main/lab3",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
